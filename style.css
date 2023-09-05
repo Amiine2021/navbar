@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 200px;
+    width: 16vh;
+    background-color: grey;
+    color: aliceblue;
+}
+.container p{
+    padding: 2px;
+}
+.container p:hover , button:hover{
+   background-color: yellow;
+   color: red;
+   cursor: pointer;
+}
+button{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#close {
+    position: absolute;
+    left : 95px ; 
+}
+.hide{
+    display: none;
+}
